@@ -1,0 +1,75 @@
+/* Style global */
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin-top: 40px;
+}
+
+header {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav ul {
+  list-style: none;
+  display: flex;
+}
+
+header nav ul li {
+  margin-right: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Game container */
+.game-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style for each game */
+.game {
+    width: 300px;
+    height: 400px;
+    margin: 20px;
+    text-align: center;
+}
+
+/* Style for images */
+.game img {
+    width: 100%;
+    height: 60%;
+    object-fit: cover;
+}
+
+/* Style for titles */
+.game h1 {
+    font-size: 24px;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* Style for descriptions */
+.game p {
+    font-size: 18px;
+    color: #555;
+    margin-top: 5px;
+    text-align: left;
+    max-width: 80%;
+    margin: auto;
+}
