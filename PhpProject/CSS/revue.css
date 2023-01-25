@@ -109,6 +109,10 @@ header{
 	margin-top: 15px;
 }
 
+.thumbs_up_down_revue{
+	width : 50px;
+}
+
 .sumbit_button{
 	background-color: #B0B0FF;
 	margin-top: 15px;
@@ -124,4 +128,13 @@ header{
 
 .sumbit_button:hover {
 	background-color: #8080FF;
+}
+
+.value_increment{
+	background-color: transparent;
+	border : none;
+	width : 30px;
+	margin-top : 15px;
+	margin-bottom : 15px;
+	text-align : center;
 }

@@ -1,12 +1,5 @@
 <?php
-    $nombre = 0;
     
-    if (isset($_POST['plus'])){
-        $nombre++;
-    }
-    if(isset($_POST['moins'])){
-        $nombre--;
-    }
 ?>
 
 <!DOCTYPE html>
@@ -16,6 +9,7 @@
         <title>Page Revue de jeu</title>
         <meta charset="utf-8">
         <link rel="stylesheet" href="CSS/revue.css">
+        <script type="text/javascript" src="js/revueJeu.js"></script>
     </head>
     
     <body>
@@ -46,9 +40,9 @@
          			<p>par Jean-Eudes</p>
          			<object data="listeCommentairesRevues/revueCommentaires.txt"></object>
          			<div class="thumbs_up_down_revue">
-         				<button type=submit><img src="photos/thumbs_up.png" class="thumbs"></button>
-         				<p>0</p>
-         				<button type=submit><img src="photos/thumbs_down.png" class="thumbs"></button>
+         				<button type=submit name="plus" onclick="incrementValue1()" value="Increment Value" id="push_button_once"><img src="photos/thumbs_up.png" class="thumbs"></button>
+         				<input type="text" id="number1" value="0" class ="value_increment">
+         				<button type=submit name="moins" onclick="decrementValue1()" value="Increment Value" id="push_button_once"><img src="photos/thumbs_down.png" class="thumbs"></button>
          			</div>
          		</div>
          		
@@ -57,9 +51,9 @@
          			<p>par Catalina</p>
          			<object data="listeCommentairesRevues/commentaire2.txt"></object>
          			<div class="thumbs_up_down_revue">
-         				<button type=submit name="plus" value="Plus"><img src="photos/thumbs_up.png" class="thumbs"></button>
-         				<p>0</p>
-         				<button type=submit name="moins" value="Moins"><img src="photos/thumbs_down.png" class="thumbs"></button>
+         				<button type=submit name="plus" onclick="incrementValue2()" value="Increment Value" id="push_button_once"><img src="photos/thumbs_up.png" class="thumbs"></button>
+         				<input type="text" id="number2" value="0" class ="value_increment">
+         				<button type=submit name="moins" onclick="decrementValue2()" value="Increment Value" id="push_button_once"><img src="photos/thumbs_down.png" class="thumbs"></button>
          			</div>
          		</div>
          		

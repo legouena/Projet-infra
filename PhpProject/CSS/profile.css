@@ -1,0 +1,93 @@
+@charset "ISO-8859-1";
+
+html,
+main {
+/*   background-image: url("https://4kwallpapers.com/images/walls/thumbs_2t/4523.jpg");
+ */
+  background-color:#DCD0FF;  
+  background-size: cover;
+  width: 99%;
+  height: 100%;
+  justify-content: center;
+  
+}
+
+body {
+	background-image: url("medias/bckg.jpg");
+	width:100%;
+}
+
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+header {
+	padding: 10px;
+	width: absolute;
+	background-color: #4CAF50;
+	text-align: center;
+	position:absolute; top:0px; left:0px; height:70px; right:0px;overflow:hidden;
+	 justify-content: center;
+}
+
+.ccsticky-nav {
+width: 100%;
+height: 60px; 
+position: fixed; 
+top: 0;
+background: #139ed8;
+}
+
+.ccsticky-nav ul {
+padding: 20px;
+margin: 0 auto;
+list-style: none;
+text-align: center;
+}
+
+.ccsticky-nav ul li {
+display: inline-block;
+margin: 0 10px;
+}
+
+.ccsticky-nav ul li a {
+padding: 10px 0;
+color: #fff;
+font-size: 1rem;
+text-decoration: none;
+font-weight: bold;
+transition: all 0.2s ease;
+}
+
+.ccsticky-nav ul li a:hover {
+color: #34495E;
+}
+
+section {
+width: 100%;
+padding: 50px;
+background: #fff;
+border-bottom: 1px solid #ccc;
+height: 1024px;
+text-align: center;
+margin-top: 60px;
+}
+
+.navigation_button{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navigation_button button{
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(97, 93, 250, 1);
+    color: white;
+}
+
+.navigation_button button:hover{
+    background-color: #716efa;
+}
+
