@@ -25,7 +25,7 @@
 	
 	<p>
 	<div class="navigation_button">
-	<form action="Homepage.php" method="post">
+	<form action="homepage.php" method="post">
       <input type="submit" name="accueil" value="Home">
     </form>
     
