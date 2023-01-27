@@ -5,11 +5,6 @@
    $password = "test";
    $dbname = "allogame";
    $conn = mysqli_connect($host, $username, $password, $dbname);
-
-   // Vérifiez la connexion
-   if (!$GLOBALS['$conn']) {
-       die("Connection failed: " . mysqli_connect_error());
-   }
   
   if (isset($_POST["name"]) && isset($_POST["image"])) {
     $name = $_POST["name"];
@@ -19,6 +14,7 @@
     $games = json_decode($games, true);
     $games[] = $game;
     file_put_contents("games.txt", json_encode($games));
+    header("location: homepage.php");
 
 
   }
