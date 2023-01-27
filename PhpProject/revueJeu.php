@@ -16,9 +16,9 @@
         <header>
         	<div class="navigation_button">
         		<p>&nbsp;</p>
-            	<p>GameRev</p>
-            	<button>Liste Jeux</button>
-            	<input class="textfield" type="text" placeholder="Recherche">
+            		<p>GameRev</p>
+			<a href="/homepage.php">Accueil</a>
+            		<input class="textfield" type="text" placeholder="Recherche">
             </div>
         </header>
         
