@@ -1,8 +1,8 @@
 <?php
    // Connexion à la base de données
-   $host = "localhost";
-   $username = "test";
-   $password = "test";
+   $host = "192.168.156.82";
+   $username = "allogame_user";
+   $password = "network";
    $dbname = "allogame";
    $conn = mysqli_connect($host, $username, $password, $dbname);
   
